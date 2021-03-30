@@ -84,7 +84,7 @@ h1  {
     width: 75px;
     height: 50px;
     background-color: red;
-    border: 1px dotted black;
+    border: 3px dotted black;
     font-size: 0px;
     margin: 7px;
 }
@@ -106,11 +106,11 @@ h1  {
     padding-left: green;
     padding-top: blue;
     background-color: rgb(245, 83, 83);
-    /*border-top: 10px blue;
-    border-right: 10px gray;
-    border-bottom: 10px yellow;
-    border-left: 10px green;*/
-    margin:23px;
+    border-top:10px solid blue;
+    border-right: 10px solid gray;
+    border-bottom: 10px solid yellow;
+    border-left: 10px solid green;
     box-sizing: border-box;
-    outline: purple 12px;
+    margin: 20px;
+    outline:10px solid purple ;
 }
